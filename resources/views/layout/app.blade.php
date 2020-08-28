@@ -31,7 +31,7 @@
 	<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<link rel="icon" href="{{url('/public/images/bible2.PNG')}}" type="image/gif">
+		<link rel="icon" href="{{url('/public/images/bible2.PNG')}}" type="image/PNG">
 		<title>I B C - International Biblestudy Club - Sign Up Form</title>
 
 		<!-- Bootstrap CSS -->
@@ -64,8 +64,12 @@
           <a class="nav-link" href="about">About</a>
         </li>
         <li class="nav-item">  
-          <a class="nav-link" href="#">Programme</a>                
+          <a class="nav-link" href="#">Programme</a>                  
         </li>
+        <li class="nav-item">  
+          <a class="nav-link" href="#">Guest Speakers</a>                
+        </li>
+
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search">

@@ -122,4 +122,10 @@ class RegisterController extends Controller
     {
         return view('register.about');
     }
+
+    
+    public function programme()
+    {
+        return view('register.programme');
+    }
 }

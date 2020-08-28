@@ -12,12 +12,17 @@
 */
 
 Route::get('/', function () {
+    return view('index');
     // return view('welcome');
-    return view('register.index');
+    // return view('register.index');
 });
 
 Route::get('/about',function(){
     return view('register.about');
+});
+
+Route::get('/programme',function(){
+    return view('register.programme');
 });
 
 Route::resource('register','RegisterController');
